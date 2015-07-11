@@ -1,4 +1,5 @@
 # CRIANDO BASE E TABELAS 
+# Utilizado NAVCAT
 
 CREATE DATABASE pdo;
 

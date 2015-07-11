@@ -1,0 +1,16 @@
+# CRIANDO BASE E TABELAS 
+
+CREATE DATABASE pdo;
+
+USE pdo;
+
+CREATE TABLE autor (
+    id   INT,
+    nome VARCHAR(60),
+    email VARCHAR(100)
+);
+
+INSERT INTO autor (id, nome, email) VALUES (1, 'JOSE', 'teste1@teste.com');
+INSERT INTO autor (id, nome, email) VALUES (2, 'MARIA', 'teste2@teste.com');
+INSERT INTO autor (id, nome, email) VALUES (3, 'JOAO', 'teste3@teste.com');
+INSERT INTO autor (id, nome, email) VALUES (4, 'PAULO', 'teste4@teste.com');
